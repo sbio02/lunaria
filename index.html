@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunaria - Estúdio Criativo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header" id="inicio">
+        <div class="logo">
+            <div class="estrela">✦</div>
+            <div>
+                <h2>Lunaria</h2>
+                <p>ESTÚDIO CRIATIVO</p>
+            </div>
+        </div>
+
+        <nav class="menu" id="menuNavegacao" aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+            <a href="#historias">Histórias</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#criacao">Criações</a>
+            <a href="#diario">Diário</a>
+            <a href="#sobre">Sobre</a>
+            <a href="estudos.html">Estudos</a>
+        </nav>
+
+        <div class="lupa" aria-hidden="true">⌕</div>
+
+        <button
+            class="botao-menu"
+            id="botaoMenu"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menuNavegacao">
+            <span class="linha-menu"></span>
+            <span class="linha-menu"></span>
+            <span class="linha-menu"></span>
+        </button>
+    </header>
+
+
+    <!-- CAPA -->
+    <div class="capa">
+        <div class="capa-conteudo">
+            <p class="pequeno">✦ BEM-VINDO AO MEU</p>
+            <h1>Estúdio Criativo</h1>
+            <p>
+                Um espaço para reunir minhas criações, ideias e projetos.
+                Aqui você encontra histórias, vídeos, códigos e muito mais.
+            </p>
+
+            <a class="botao-claro" href="#projetos">Explorar projetos →</a>
+        </div>
+    </div>
+
+
+    <!-- CATEGORIAS -->
+    <div class="categorias">
+
+        <div class="categoria rosa">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=80">
+            <div class="categoria-conteudo">
+                <h3>◫ Histórias</h3>
+                <p>Novelas, contos e personagens que ganham vida.</p>
+                <a href="#historias">Ver histórias →</a>
+            </div>
+        </div>
+
+        <div class="categoria azul">
+            <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=500&q=80">
+            <div class="categoria-conteudo">
+                <h3>▷ Vídeos</h3>
+                <p>Produções com IA, edições e experimentos visuais.</p>
+                <a href="#videos">Ver vídeos →</a>
+            </div>
+        </div>
+
+        <div class="categoria verde">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80">
+            <div class="categoria-conteudo">
+                <h3>&lt;/&gt; Projetos</h3>
+                <p>Sites, apps e trabalhos da faculdade.</p>
+                <a href="#projetos">Ver projetos →</a>
+            </div>
+        </div>
+
+        <div class="categoria pêssego">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=500&q=80">
+            <div class="categoria-conteudo">
+                <h3>◉ Criações</h3>
+                <p>Ilustrações, designs e experimentos criativos.</p>
+                <a href="#criacao">Ver criações →</a>
+            </div>
+        </div>
+
+        <div class="categoria lilas">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=500&q=80">
+            <div class="categoria-conteudo">
+                <h3>▤ Diário</h3>
+                <p>Bastidores, aprendizados e reflexões.</p>
+                <a href="#diario">Ver diário →</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- DESTAQUES -->
+    <div class="principal">
+
+        <div class="titulo">
+            <h2>✦ Destaques da Semana</h2>
+            <a href="#destaques">Ver todos →</a>
+        </div>
+
+        <div class="linha">
+
+            <div class="cards">
+
+                <div class="card" id="historias">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=700&q=80">
+
+                    <div class="card-conteudo">
+                        <p class="tag rosa-texto">HISTÓRIAS</p>
+                        <h3>Entre o Caos e o Café</h3>
+                        <p>Uma garota, um novo começo e um segredo que pode mudar tudo.</p>
+                        <p class="info">Capítulo 1 · 12 min</p>
+                    </div>
+                </div>
+
+
+                <div class="card" id="videos">
+                    <div class="imagem-video">
+                        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=700&q=80">
+                        <div class="play">▶</div>
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="tag azul-texto">VÍDEOS</p>
+                        <h3>Paisagens que ganham vida</h3>
+                        <p>Experimento com IA: transformando descrições em vídeos.</p>
+                        <p class="info">3 min</p>
+                    </div>
+                </div>
+
+
+                <div class="card" id="projetos">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=700&q=80">
+
+                    <div class="card-conteudo">
+                        <p class="tag verde-texto">PROJETOS</p>
+                        <h3>Meu site em HTML e CSS</h3>
+                        <p>Projeto desenvolvido durante a disciplina de programação.</p>
+                        <p class="info">HTML · CSS</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- SOBRE -->
+            <div class="sobre" id="sobre">
+                <h3>♙ Sobre mim</h3>
+
+                <div class="perfil">
+                    <div class="foto-perfil">L</div>
+
+                    <p>
+                        Olá! Eu sou a criadora deste espaço.
+                        Sou estudante de Ciência da Computação e
+                        apaixonada por tecnologia, histórias e criatividade.
+                    </p>
+                </div>
+
+                <a class="botao-escuro" href="#contato">Conheça mais →</a>
+
+                <hr>
+
+                <h3>Me acompanhe</h3>
+
+                <div class="redes">
+                    <a href="#">GitHub</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                </div>
+
+                <p class="frase">✦ Grandes ideias também nascem de pequenos começos.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- BASTIDORES -->
+    <div class="bastidores" id="diario">
+
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80">
+
+        <div>
+            <p class="tag">▣ BASTIDORES</p>
+            <h2>Como eu crio minhas histórias com IA?</h2>
+            <p>
+                Neste post, mostro o processo por trás de uma das minhas
+                histórias, desde a ideia inicial até o resultado final.
+            </p>
+
+            <a class="botao-escuro" href="#contato">Ler post completo →</a>
+        </div>
+
+    </div>
+
+
+    <!-- ÁREA EXTRA PARA USAR O CONTEÚDO DA DISCIPLINA -->
+    <div class="extras">
+
+        <div class="extra">
+
+            <h2 id="criacao">Minhas criações</h2>
+
+            <ul>
+                <li>Personagens e histórias</li>
+                <li>Vídeos produzidos com IA</li>
+                <li>Ilustrações e desenhos</li>
+                <li>Projetos de programação</li>
+            </ul>
+
+        </div>
+
+
+        <div class="extra">
+
+            <h2>Projetos</h2>
+
+            <div class="tabela-responsiva">
+            <table>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Tecnologia</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>Site Lunaria</td>
+                    <td>HTML e CSS</td>
+                    <td>Em andamento</td>
+                </tr>
+
+                <tr>
+                    <td>Vídeos IA</td>
+                    <td>IA</td>
+                    <td>Em andamento</td>
+                </tr>
+            </table>
+            </div>
+
+        </div>
+
+
+        <div class="extra" id="contato">
+
+            <h2>Entre em contato</h2>
+
+            <form>
+                <label>Nome:</label>
+                <input type="text">
+
+                <label>E-mail:</label>
+                <input type="email">
+
+                <label>Mensagem:</label>
+                <textarea></textarea>
+
+                <input class="enviar" type="submit" value="Enviar mensagem">
+            </form>
+
+        </div>
+
+
+        <div class="extra">
+
+            <h2>Vídeo</h2>
+
+            <video controls width="100%">
+                <source src="" type="video/mp4">
+                Seu navegador não consegue reproduzir este vídeo.
+            </video>
+
+            <p class="info">Coloque seu próprio vídeo na pasta do site e altere o endereço no código.</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- RODAPÉ -->
+    <div class="rodape">
+
+        <div>
+            <h2>✦ Lunaria</h2>
+            <p>Ideias que se transformam em projetos.</p>
+        </div>
+
+        <div>
+            <h3>Navegação</h3>
+            <p>Início</p>
+            <p>Histórias</p>
+            <p>Vídeos</p>
+            <p>Projetos</p>
+        </div>
+
+        <div>
+            <h3>Contato</h3>
+            <p>contato@lunaria.com</p>
+            <p>Brasil</p>
+            <p>♡ Vamos conversar!</p>
+        </div>
+
+        <div class="mensagem">
+            <p>Obrigada por estar aqui! ♡</p>
+            <p>✿</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
